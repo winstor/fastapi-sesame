@@ -1,0 +1,16 @@
+
+
+pip install fastapi[all]
+uvicorn main:app --reload
+
+pip install python-jose[cryptography]
+
+
+postgresql 数据库需要
+pip install psycopg2-binary
+psycopg2-binary = "^2.8.5"
+
+pip install passlib[bcrypt]
+
+
+pip install aiohttp   异步请求-备用

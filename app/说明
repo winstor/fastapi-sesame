@@ -1,0 +1,26 @@
+通用
+
+
+
+pip install fastapi[all]
+uvicorn main:app --reload
+
+pip install python-jose[cryptography]
+
+
+postgresql 数据库需要
+pip install psycopg2-binary
+psycopg2-binary = "^2.8.5"
+
+pip install passlib[bcrypt]
+
+
+pip install aiohttp   异步请求-备用
+
+
+
+
+1，应用
+一个用户（user） 可以属于多个站点（sites）   用户-站点  一对多 关联
+一个站点（sites） 可以有多个应用（apps）     站点-应用   一对多 关联
+
